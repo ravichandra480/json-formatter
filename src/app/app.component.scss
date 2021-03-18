@@ -1,0 +1,30 @@
+.editor {
+  height: 100vh;
+  width: 100%;
+}
+.editor-toolbar {
+    position: absolute;
+    top: 25px;
+    right: 0;
+    z-index: 1;
+    button {
+        background: #e2e2e2;
+        border: 0;
+        color: #756f6f;
+        padding: 8px 14px;
+        border-right: 1px solid #fafafa;
+        cursor: pointer;
+    }
+    .active {
+        background-color: #defabb;
+        color: #008b00;
+    }
+    .error {
+        background-color: #fff2df;
+        color: #e54304;
+    }
+}
+.material-icons {
+    font-size: 14px;
+    vertical-align: text-top;
+}
